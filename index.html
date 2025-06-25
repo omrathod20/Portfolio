@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        
+        <button class="openbtn" onclick="opennav()"><i class="bx bx-menu"></i></button>
+
+ <div  id="mysidenav" class="sidenav">
+    <button class="closenav" onclick="closenav()"><i class="bx bx-x"></i></button>
+    <a href="#home" class="active" onclick="closenav()">Home</a>
+    <a href="#about" onclick="closenav()">About</a>
+    <a href="#myskill" onclick="closenav()">Skills</a>
+    <a href="#project" onclick="closenav()">Project</a>
+    <a href="#contact" onclick="closenav()">Contact</a>
+
+    <div class="cv">
+      <a href="om_rathod_Resume.pdf" download>Download CV</a>
+    </div> 
+</div>
+
+<div class="mainnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#myskill">Skills</a>
+    <a href="#project">Project</a>
+    <a href="#contact">Contact</a>
+
+</div>
+ 
+    </header>
+
+    <section id="home" class="home">
+
+        <div class="home-text">
+            <h3>Hi, My Self</h3>
+            <h1>Om Rathod</h1>
+            <div class="nagu">
+                <h3>I'm a</h3>
+                <h3 class="filed">Frontend Developer</h3>
+            </div>
+
+            <div class="social-icon">
+                <a href="https://github.com/omrathod20"><i class='bx bxl-github' id="g"></i></a>
+                <a href="https://www.instagram.com/mr.om_naik/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/om-pradip-rathod-b56212301/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        <div class="Profile-img">
+            <img src="./images/profile-pic new.png" alt="img">
+        </div>
+
+    </section>
+
+    <!---About me-->
+
+    <section id="about" class="About" id="#about">
+
+        <div class="about-text">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>"Hi there! I’m Om Rathod, a Web developer with a curious mind. I may not have experience yet, but my
+                passion for clean code and seamless user experiences drives me forward. Let’s turn ideas into functional
+                Web applications!”
+
+            </p>
+        </div>
+
+    </section>
+
+    <!---my skill-->
+    <section id="myskill" class="my-skill">
+
+        <h1>My <span>Skill</span></h1>
+
+        <div class="skill">
+            <div class="images">
+             <img class="skill-img" src="./images/html-5.png" alt="html-5">
+             <img class="skill-img" src="./images/css-5.png" alt="css-5">
+             <img class="skill-img" src="./images/js5.png" alt="javascript-5">
+
+            </div>
+        </div>
+    </section>
+
+    <!-----portfolio----->
+
+    <section id="project" class="project">
+
+        <h1 class="main-tittle">My <span> Project</span></h1>
+
+        <div class="card-design">
+
+            <!---------------------- Card 1------------------->
+
+            <div class="card">
+
+                <img src="./images/weather-app-title-image.webp" alt="Card Image" class="card-image"
+                    max-height="300px">
+
+                <div class="card-content">
+
+                    <h2 class="card-title">WEATHER FORCASTING</h2>
+                    <p class="card-description">Real-time weather updates and forecasts with a clean, user-friendly interface</p>
+                    <button class="card-button"><a href="https://omrathod20.github.io/Weather-Forcasting/">Click me</a></button>
+        
+                </div>
+            </div>
+            <!---------------------- Card 2------------------->
+
+
+            <div class="card">
+
+                <img src="./images/To-Do List Image.jpg" alt="Card Image" class="card-image" max-height="300px">
+                <div class="card-content">
+                    <h2 class="card-title">TO-DO-LIST</h2>
+                    <p class="card-description">Manage your daily tasks efficiently with a clean and easy-to-use interface</p>
+
+                    <button class="card-button"><a href="https://omrathod20.github.io/To-Do-List/">Click me</a></button>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!---------------------- Card 3------------------->
+
+
+    <section id="contact">
+        <form>
+    <div class="contact-us"></div>
+    
+    <div class="form-container">
+        <h1>Get in touch</h1>
+
+        <div class="from-content">
+    <div class="groupA">
+
+        <input type="text" name="fullName" id="name" placeholder="Full Name" required=""> 
+
+        <input type="text" name="email" id="email" placeholder="Email" required="">
+
+    </div>
+        <h2 class="box-title">How Can We Help You?</h2> 
+    <div class="groupB">
+        <textarea name="textarea" id="textarea" rows="10" colums="50" required=""></textarea>
+    </div>
+   
+    <button class="submit-btn" type="submit">Submit</button>
+
+    </div>
+  </div>
+</form>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" 
+integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>     
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" 
+integrity="sha512-wOeEC+9qERAzhliwBFPDb6t8TiFFxdxG8vhK/Ygs7TuC44bpg8pg/X2/U/u+0X4fK05wb9id1EIipnF02+CFQw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="gsap.js"></script>
+
+   <script src="om.js"></script>
+
+</body>
+
+</html>
