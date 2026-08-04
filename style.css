@@ -526,7 +526,7 @@ h2{
         display: block;
         align-items: center;
         justify-content: space-between;
-        padding: 2rem;
+        padding: 1.6rem;
         padding-top: 5rem;
     }
     .home-text h3{
@@ -543,7 +543,7 @@ h2{
         font-family:Georgia, 'Times New Roman', Times, serif 
     }
     .nagu{
-        gap: 1rem;
+        gap: 0.5rem;
         font-size: 2.5rem;   
     }
     .social-icon {
