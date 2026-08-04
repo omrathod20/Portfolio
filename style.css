@@ -180,7 +180,7 @@ span {
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
-    border:#26ff00 2px solid;
+    /* border:#26ff00 2px solid; */
     /* animation: floatImage 6s ease-in-out infinite; */
 }
 
@@ -530,20 +530,22 @@ h2{
         padding-top: 5rem;
     }
     .home-text h3{
-    font-size: 1.2rem;
+        Text-align: center;
+    font-size: 1.8rem;
     }
      .home-text{
        margin-top: 25rem;
      }
     .home-text h1{
-        
-        font-size: 2.1rem;
+        /* font-size: 2.1rem; */
+        Text-align: center;
         padding: 3px;
     }
     .nagu{
-        gap: 0.3rem;
+        gap: 0.7rem;
     }
     .social-icon {
+        Text-align: center;
         font-size: 2rem;
     }
     .social-icon a{
