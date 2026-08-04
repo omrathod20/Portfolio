@@ -176,7 +176,11 @@ span {
 }
 
 .Profile-img {
-    width: 25vw;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:#26ff00 2px solid;
     /* animation: floatImage 6s ease-in-out infinite; */
 }
 
@@ -297,7 +301,7 @@ span {
 .skill-img {
   width: 150px;
   padding: 20px;
-  background-color: #35373ad8;
+  background-color: #78787853;
   border-radius: 12px;
   margin: 8px;
    box-sizing: border-box;
@@ -523,12 +527,16 @@ h2{
         align-items: center;
         justify-content: space-between;
         padding: 2rem;
-        padding-top: 25rem;
+        padding-top: 5rem;
     }
     .home-text h3{
     font-size: 1.2rem;
     }
+     .home-text{
+       margin-top: 25rem;
+     }
     .home-text h1{
+        
         font-size: 2.1rem;
         padding: 3px;
     }
@@ -543,8 +551,9 @@ h2{
     margin-left: 5px;
     }
     .Profile-img{
-        padding-top: 6rem;
-        width: 80vw;
+        margin-top: 5rem;
+        /* padding-top: 6rem; */
+        width: 73vw;
         /* animation: none; */
         position: absolute;
         top:0;
