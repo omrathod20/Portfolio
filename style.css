@@ -530,19 +530,21 @@ h2{
         padding-top: 5rem;
     }
     .home-text h3{
-        Text-align: center;
-    font-size: 1.8rem;
+        text-align: center;
+    font-size: 1.5rem;
     }
      .home-text{
-       margin-top: 25rem;
+         Text-align: center;
+       margin-top: 22rem;
      }
     .home-text h1{
-        /* font-size: 2.1rem; */
-        Text-align: center;
-        padding: 3px;
+        font-size: 2.5rem;
+        padding: 5px;
+        font-family:Georgia, 'Times New Roman', Times, serif 
     }
     .nagu{
-        gap: 0.7rem;
+        gap: 1rem;
+        font-size: 2.5rem;   
     }
     .social-icon {
         Text-align: center;
@@ -553,9 +555,9 @@ h2{
     margin-left: 5px;
     }
     .Profile-img{
-        margin-top: 5rem;
+        margin-top: 7rem;
         /* padding-top: 6rem; */
-        width: 78/7vw;
+        width: 85vw;
         /* animation: none; */
         position: absolute;
         top:0;
